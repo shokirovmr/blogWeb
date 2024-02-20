@@ -15,5 +15,4 @@ urlpatterns = [
     path('post-update/<int:pk>', post_update, name="post-update"),
     path('post-delete/<int:pk>', post_delete, name="post-delete"),
     path('user-post/<str:username>', user_profile, name="user-profile")
-
 ]
